@@ -17,7 +17,7 @@ else
     echo "Error: open.sh not found."
     exit 1
 fi
-
+sleep 2
 # Run start.sh after setupo.sh completes
 if [ -f start.sh ]; then
     echo "Running start.sh..."
